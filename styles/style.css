@@ -8,6 +8,7 @@
     /*Primary color*/
     --soft-red: hsl(10, 79%, 65%);
     --cyan: hsl(186, 34%, 60%);
+    --white: hsl(0, 0%, 100%);
     /*Secondary color*/
     --dark-brown: hsl(25, 47%, 15%);
     --medium-brown: hsl(28, 10%, 53%);
@@ -27,6 +28,36 @@ main {
     justify-content: center;
     height: 100vh;
     width: 100vw;
+}
+
+
+.card {
+    width: 530px;
+}
+
+.balance {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: var(--soft-red);
+}
+
+.balance-month {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    /*width: 530px;*/
+    padding: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: var(--white);
 }
 
 .attribution {
