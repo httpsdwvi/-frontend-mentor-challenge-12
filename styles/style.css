@@ -30,7 +30,6 @@ main {
     width: 100vw;
 }
 
-
 .card {
     width: 530px;
 }
@@ -45,6 +44,23 @@ main {
     padding: 30px;
     border-radius: 10px;
     background-color: var(--soft-red);
+}
+
+.weekdays {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bar-data {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.data-content {
+    background-color: var(--white);
 }
 
 .balance-month {
