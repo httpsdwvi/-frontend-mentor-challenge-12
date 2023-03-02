@@ -32,6 +32,9 @@ main {
 
 .card {
     width: 530px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .balance {
@@ -46,11 +49,18 @@ main {
     background-color: var(--soft-red);
 }
 
+.title-content {
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 22px;
+}
+
 .weekdays {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: end;
     justify-content: space-around;
+    height: 250px;
 }
 
 .bar-data {
